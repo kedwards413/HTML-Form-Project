@@ -9,14 +9,15 @@
     <title>HTML Form</title>
 </head>
 <body>
+<div class="container">
 <div class="card text-left">
   <div class="card-header">
     <h1>Payment form example</h1>
   </div>
-  <div class="card-body">
+  <div class="card-body w-75">
    <form>
     <div class="form-row">
-        <div class="col-md-10 p-4">
+        <div class="col-md-12 p-4">
     <div class="alert alert-danger" role="alert">
     Some fields are missing
     </div>
@@ -89,17 +90,23 @@
 </div>
 <div class="custom-control custom-radio custom-control-inline">
   <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
-  <label class="custom-control-label" for="customRadioInline2"><i class="fab fa-cc-visa"></i>/label>
+  <label class="custom-control-label" for="customRadioInline2"><i class="fab fa-cc-visa"></i></label>
 </div>
 <div class="custom-control custom-radio custom-control-inline">
-  <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
-  <label class="custom-control-label" for="customRadioInline2">Or toggle this other custom radio</label>
+  <input type="radio" id="customRadioInline3" name="customRadioInline1" class="custom-control-input">
+  <label class="custom-control-label" for="customRadioInline3"><i class="fab fa-cc-discover"></i></label>
 </div>
 <div class="custom-control custom-radio custom-control-inline">
-  <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
-  <label class="custom-control-label" for="customRadioInline2">Or toggle this other custom radio</label>
+  <input type="radio" id="customRadioInline4" name="customRadioInline1" class="custom-control-input">
+  <label class="custom-control-label" for="customRadioInline4"><i class="fab fa-cc-amex"></i></label>
 </div>
     </div>
+  </div>
+  <div class="form-group col-md-6">
+    <div class="form-group d-flex float-right">
+    <label for="exampleFormControlTextarea1">Message:</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
   </div>
 </form>
 <div class="card-footer text-muted">
@@ -109,7 +116,7 @@
   </div>
 </div>
 </div>
-
+</div>
 
 
 
